@@ -39,7 +39,7 @@ int main(int argc, char *argv[]){
 	}
 	
 	clnt_addr_size = sizeof(clnt_addr);
-	clnt_sock=accept(serv_sock, (struct sockaddr*)&clnt_addr, sizeof(serv_addr))==-1; // 연결요청이 있을 때 까지 함수는 반환되지 않음
+	clnt_sock=accept(serv_sock, (struct sockaddr*)&clnt_addr, &clnt_addr_size); // 연결요청이 있을 때 까지 함수는 반환되지 않음
 	if(clnt_sock==-1){
 		error_handling("accept() error");
 	}
