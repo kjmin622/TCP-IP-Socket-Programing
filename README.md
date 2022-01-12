@@ -8,4 +8,5 @@ OS : Ubuntu
 ***********************
 
 [1. 간단한 서버와 클라이언트 만들기](https://pupuduck.tistory.com/25)
+
 [2. 소켓의 프로토콜과 타입](https://pupuduck.tistory.com/26)
